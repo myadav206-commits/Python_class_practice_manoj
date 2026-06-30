@@ -54,8 +54,40 @@
 #     print("file created and written")
 #     print(f"file content : {r}")
 
-with open("demo.txt","r") as f:
-    r=f.read()
-    if r.isdigit():
-        print(r)
-    
+# with open("demo.txt","r") as f:
+#     r=f.read()
+#     if r.isdigit():
+#         print(r)
+
+# emp_list=["aman","shivam","shubham","anshu","kamal","dev"]
+# # emp name individual file create txt type.
+# for i in emp_list:
+#     emp_list = i + ".txt"
+#     with open(emp_list, "w") as file:
+#         file.write(i)
+# print("All employee text files created successfully.")
+   
+# import os
+# print(os.listdir())
+# print("current folder :",os.getcwd())
+# path=r"c:Amit Yadav\Desktop\Python_Class_Practice_Manoj\Python_class_practice"
+# os.chidr(path)
+# print("current folder",)
+# # with open("os.txt","w") as file
+# emp_list=["aman","shivam","shubham","anshu","kamal","dev"]
+# for i in emp_list:
+#     file_check=os.path.exists(f"{i}.txt")
+#     if not file_check:
+#      with open(f"{i}.txt","w") as file:
+#         print((f"{i}.txt file created..."))
+# else:
+#     print(f"{i} - file already exists")
+# folder="employee_details"
+# os.makedirs(folder)
+# emp_list=["aman","shivam","shubham","anshu","kamal","dev"]
+# for i in emp_list:
+#    os.remove(f"{i}".txt)
+#    print(i,"removed..")
+# target=os.getcwd()+folder
+# path=os.chdir(target)
+# print(path)
