@@ -1,0 +1,4 @@
+negative,this is very bad product i ordered last one month ago
+positive, this product is very nice go for it
+bad_product,['shoe', 'cricket bat']
+good_product,['books', 'mobile phone']

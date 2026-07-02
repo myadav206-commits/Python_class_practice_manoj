@@ -1,0 +1,12 @@
+{
+    "database" : "etl",
+    "table_name": "Students",
+    "colums" :{
+        "id":"int primery key auto_increment",
+        "first name": "varchar(100",
+        "age": "int",
+        "email": "varchar(100)",
+        "phone": "int"
+
+    }
+}
